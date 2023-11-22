@@ -1,0 +1,617 @@
+body {
+background-image: url(fondo.jpeg);
+background-size: auto;
+
+}
+
+/*.. HEADER..*/
+.logo-imagen {
+    width: 100px; 
+    height: auto;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    color: black;
+    padding: 10px;
+    background-color: rgba(181, 35, 218, 0.808);
+    height: 80px;
+    width: 1300px;
+    margin-left: 5px;
+    
+  }
+  
+    
+    .opciones ul {
+
+    list-style: none;
+    padding: 0;
+    margin-right: 2px;
+    }
+    
+    .opciones li {
+        display: inline;
+        justify-content: space-around;
+        margin-right: 100px;
+        padding: 7px;
+        height: 25px;
+        background-color: rgb(212, 23, 140);
+        
+    }
+
+    .opciones a{
+        color: black;
+    }
+    
+    .opciones a:hover {
+        background-color: #f1c0df;
+    }
+    
+
+    .menu ul {
+
+        list-style: none;
+        padding: 0;
+        margin-right: 5px;
+    
+        }
+    
+        .menu li {
+    
+            display: inline;
+            justify-content: space-around;
+            margin-right: 60px;
+            padding: 25px;
+            border-radius: 5px;
+            background-color: rgb(104, 4, 150);
+            
+            
+        }
+        
+
+        .menu a:hover {
+            background-color: #f1c0df;
+        }
+
+        .menu a {
+            color: white;
+        }
+a {
+    text-decoration-line: none;
+}
+
+
+main {
+    flex: 1; 
+}
+
+
+/*.. TRATAMIENTO DESCATADO..*/
+.tratamiento-destacado {
+    display: flex;
+    justify-content:left;
+    
+    }
+
+
+.tratamiento-destacado img {
+    width: 350px; 
+    height: 350px;
+    position: relative;
+    display: inline-block;
+    top: 15px;
+
+   }
+
+.tratamiento-destacado H1 {
+   font-size: 20px;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    color: rgb(20, 17, 17); 
+    padding: 10px; 
+}
+
+.reductor-anticelulitico p {
+    font-size: 20px;
+    position: absolute;
+    top: 180px;
+    left: 80px;
+    color: red; 
+    padding: 10px;
+}
+
+.contenedor h1 {
+   font-size: 25px;
+   position: absolute;
+   top: 120px;
+   left: 500px;
+   color: black;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 10px; 
+}
+
+.centrado {
+    position: absolute;
+    top: 170px;
+    left: 500px;
+    text-align: justify;
+    max-width: 300px;
+}
+
+/*.. RESULTADOS COMPROBADOS..*/
+.resultados-comprobados img {
+    display: flex;
+     margin-left: 900px;
+     margin-top: -340px;
+    width: 400px;
+    height: 400px;
+}
+
+.resultados-comprobados h1{
+    font-size: 20px;
+    position: absolute;
+    top: 120px;
+    left: 950px;
+    color: rgb(20, 17, 17); 
+    padding: 10px;  
+
+}
+/*.. FOOTER.. pri*/
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    }
+
+.PIE-DE-PAGINA {
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    color: black;
+    padding: 8px;
+    background-color: rgba(181, 35, 218, 0.808);
+    height: 30px;
+    width: 1300px;
+
+}
+
+.PIE-DE-PAGINA a:hover {
+    background-color: #f1c0df;
+}
+
+
+.PIE-DE-PAGINA a{
+    text-decoration-line: none;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+}
+
+.PIE-DE-PAGINA ul {
+
+    list-style: none;
+    padding: 0;
+    margin-right: 10px;}
+
+.PIE-DE-PAGINA li {
+    
+        display: inline;
+        justify-content: space-around;
+        margin-right: 180px;
+           
+    }
+
+ 
+/*.. PAGINA TRATAMIENTOS..*/
+
+body {
+    background-image: url(fondo.jpeg);
+    background-size: cover;
+    min-height: 100vh;
+    }
+
+.tratamientofacial img {
+    width: 1300px; 
+    height: 250px;
+    position: relative;
+    display: inline-block;
+    top: 3px;
+    margin-right: 5PX;
+    
+}
+
+.tratamientocorporal img {
+    width: 1300px; 
+    height: 250px;
+    position: relative;
+    display: inline-block;
+    top: -80px;
+    margin-right: 5PX;
+    
+}
+
+
+.tratamientofacial h1 {
+    position: absolute; 
+    top: 20%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    
+}
+
+.tratamientocorporal h1 {
+    position: absolute; 
+    top: 60%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+li i.las {
+    margin-right: 10px; 
+}
+
+
+/*.. CONFIGURACION LISTA TRATAMIENTO..*/
+
+.tratamientofacial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.tratamientofacial ul {
+    list-style-type: none;
+    padding: 0;
+    position: relative; /
+    top: -160px; 
+}
+    
+
+
+
+
+/*.. CONFIGURACION LISTA CORPORALES..*/
+
+.tratamientocorporal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.tratamientocorporal ul {
+    list-style-type: none;
+    padding: 0;
+    position: relative; 
+    top: -230px; 
+}
+    
+
+
+.tratamientocorporal ul li {
+    display: flex;
+    align-items: left;
+    
+}
+
+
+
+
+/*.. MASAJES..*/
+
+
+.masajerelajante img {
+    width: 1300px; 
+    height: 250px;
+    position: relative;
+    display: inline-block;
+    top: 3px;
+    margin-left: 9px;
+}
+
+.masajedescontracturante img {
+    width: 1300px; 
+    height: 250px;
+    position: relative;
+    display: inline-block;
+    bottom: 80px;
+    margin-left: 9px;
+}
+
+.masajerelajante h1 {
+    position: absolute; 
+    top: 20%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    
+}
+
+.masajedescontracturante h1 {
+    position: absolute; 
+    top: 60%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+
+/*.. CONFIGURACION LISTA RELAJANTES..*/
+
+.masajerelajante {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.masajerelajante ul {
+    list-style-type: none;
+    padding: 0;
+    position: relative; 
+    top: -160px; 
+}
+    
+
+
+.masajerelajante ul li {
+    display: flex;
+    align-items: left;
+    
+}
+
+/*.. CONFIGURACION LISTA RELAJANTES..*/
+
+.masajedescontracturante {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.masajedescontracturante ul {
+    list-style-type: none;
+    padding: 0;
+    position: relative; 
+    top: -240px; 
+}
+    
+
+
+.masajedescontracturante ul li {
+    display: flex;
+    align-items: left;
+    
+}
+
+/*..DEPILACION..*/
+
+.depilacioncera img {
+    width: 1300px; 
+    height: 250px;
+    position: relative;
+    display: inline-block;
+    top: 3px;
+    
+}
+
+.depilaciondefinitiva img {
+    width: 1300px; 
+    height: 250px;
+    position: relative;
+    display: inline-block;
+    top: -118px;
+    
+}
+
+
+.depilacioncera h1 {
+    position: absolute; 
+    top: 20%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    
+}
+
+.depilaciondefinitiva h1 {
+    position: absolute; 
+    top: 60%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+li i.las {
+    margin-right: 10px; 
+
+}
+
+/*.. NUEVA CONFIGURACION LISTA DEPI DEFINITIVA..*/
+
+.depilaciondefinitiva {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.depilaciondefinitiva ul {
+    list-style-type: none;
+    padding: 0;
+    position: relative; 
+    top: -310px; 
+}
+    
+
+
+.depilaciondefinitiva ul li {
+    display: flex;
+    align-items: left;
+    
+}
+
+/*.. CONFIGURACION LISTA DEPILACION CERA..*/
+
+.depilacioncera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.depilacioncera ul {
+    list-style-type: none;
+    padding: 0;
+    position: relative; 
+    top: -190px; 
+}
+    
+
+
+/*.. PAGINA PRODUCTOS..*/
+
+body {
+    background-image: url(fondo.jpeg);
+    background-size: cover;
+    min-height: 100vh;
+    }
+
+.cremaidraet img {
+    width: 1300px; 
+    height: 250px;
+    position: relative;
+    display: inline-block;
+    top: 3px;
+    margin-left: 9px;
+   
+    
+}
+
+.cremalidherma img {
+    width: 1300px; 
+    height: 250px;
+    position: relative;
+    display: inline-block;
+    top: -150px;
+    margin-left: 9px;
+    
+}
+
+
+.cremaidraet h1 {
+    position: absolute; 
+    top: 17%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    
+}
+
+.cremalidherma h1 {
+    position: absolute;
+    top: 60%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+li i.las {
+    margin-right: 10px; 
+}
+
+/*.. CONFIGURACION LISTA CREMAS IDRAET..*/
+
+.cremalidherma {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.cremalidherma ul {
+    list-style-type: none;
+    padding: 0;
+    position: relative; 
+    top: -310px; 
+}
+
+/*.. CONFIGURACION LISTA CREMAS IDRAET..*/
+
+.cremaidraet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.cremaidraet ul {
+    list-style-type: none;
+    padding: 0;
+    position: relative; 
+    bottom: 200px; 
+}
+
+.cremaidraet ul li {
+    display: flex;
+    align-items: left;
+}
+/*.. PAGINA DE CONTACTO..*/
+.contacto {
+
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.contacto li{
+    font-size: 20px;
+
+
+}
+
+li i.lab {
+    margin-right: 10px; 
+
+}
+li i.lar {
+    margin-right: 10px; 
+   
+
+}
+.contacto li {
+    margin-bottom: 30px;
+
+}
+.imagencontacto img {
+    width: 400px;
+    height: 400px;
+    margin-top: -250px;
+    margin-left: 700px;
+}
+
+/*.. PAGINA MEDIOS DE PAGO ..*/
+
+.mediosdepago img {
+  width: 500px;
+  height: 400px;
+  margin-top: 30px;
+  margin-left: 400px;
+}
+
